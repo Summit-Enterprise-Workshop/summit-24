@@ -30,6 +30,16 @@ type Order @key(fields: "id") {
   buyer: User! 
 
   """
+  The total cost of the order
+  """
+  orderTotal: Float
+
+  """
+  The date the oder was made
+  """
+  orderDate: String
+
+  """
   A list of all the items they purchased. This is the Variants, not the Products so we know exactly which
   product and which size/color/feature was bought
   """
