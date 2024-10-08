@@ -32,7 +32,12 @@ subscription:
 limits:
   max_depth: 5
   max_height: 100
-  max_aliases: 0
-## Authentication and Authorization Module
+  max_aliases: 1
+coprocessor:
+  url: https://coprocessor-wn3vwa6nlq-ue.a.run.app
+  timeout: 2s
+  router:
+    response:
+      body: true
 
 
