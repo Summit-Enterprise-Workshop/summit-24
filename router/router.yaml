@@ -32,7 +32,6 @@ subscription:
 limits:
   max_depth: 5
   max_height: 100
-  max_aliases: 3
 ## Authentication and Authorization Module
 authentication:
   router:
